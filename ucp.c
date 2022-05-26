@@ -21,6 +21,6 @@ int main (){
 		if (rebootchoice == 'y')
 			system("reboot");
 	}
-
+	// DO NOT ADD 4 AS A CHOICE, IF THERE IS NO OPTION THE PROGRAM WILL AUTOMATICALLY EXIT
 	return 0;	
 }

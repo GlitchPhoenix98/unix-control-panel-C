@@ -8,6 +8,7 @@ int main (){
 	printf("Type a number and hit enter: ");
 	scanf("%d", &choice);	
 	// Pick a choice
+	//Requires neofetch and htop
 	switch (choice) {
 		case 1:
 		system("neofetch");
@@ -16,6 +17,7 @@ int main (){
 		system("htop");
 		break;
 		case 3:
+		// replace with what your init system uses or doas if you use that
 		system("sudo reboot");
 		break;
 	}

@@ -16,7 +16,6 @@ int main (){
 		break;
 		case 2:
 		system("htop");
-		// Reset choice so it doesn't take all the ram.
 		int choice = 0;
 		break;
 		case 3:

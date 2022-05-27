@@ -1,5 +1,7 @@
-# unix-control-panel
-A control panel written in C for Unix-like operating systems.
+# unix-control-panel-C
+A control panel written in C for Unix-like operating systems.<br>
+We have one written in python too, if you want an easier to edit version:<br>
+https://github.com/GlitchPhoenix98/unix-control-panel
 # Required Software
 neofetch, htop.
 # Compilation

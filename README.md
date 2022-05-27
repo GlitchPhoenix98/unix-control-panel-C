@@ -1,5 +1,6 @@
 # unix-control-panel-C
 A control panel written in C for Unix-like operating systems.<br>
+This was made mostly as an excuse for me to learn something new, don't expect it to function well.
 We have one written in python too, if you want an easier to edit version:<br>
 https://github.com/GlitchPhoenix98/unix-control-panel
 # Required Software

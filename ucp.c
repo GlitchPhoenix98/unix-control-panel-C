@@ -4,7 +4,7 @@ int main (){
 	int choice;
 	// Program name, what numbers to type, prompt
 	system("clear");
-	printf("Unix Control Panel 0.10.1\n");
+	printf("Unix Control Panel 0.10.2\n");
 	printf("\n1. Neofetch\n2. Htop\n3. Reboot\n4. Terminal\n");
 	printf("Type a number and hit enter: ");
 	scanf("%d", &choice);	

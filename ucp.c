@@ -22,8 +22,8 @@ int main (){
 		int choice = 0;
 		break;
 		case 3:
-		// replace with what your init system uses or doas if you use that
-		system("sudo reboot");
+		// replace with what your init system uses 
+		system("reboot");
 		break;
 	}
 	// If you picked htop, it will loop it so you can exit and use it again.

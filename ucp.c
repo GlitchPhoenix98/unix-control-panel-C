@@ -2,11 +2,10 @@
 #include <stdlib.h>
 int main (){
 	int choice;
-	// Beginning of while loop
-	do {
 	// Program name, what numbers to type, prompt
+	system("clear");
 	printf("Unix Control Panel 0.10.1\n");
-	printf("\n\n1. Neofetch\n2. Htop\n3. Reboot\n4. Terminal\n");
+	printf("\n1. Neofetch\n2. Htop\n3. Reboot\n4. Terminal\n");
 	printf("Type a number and hit enter: ");
 	scanf("%d", &choice);	
 	// Pick a choice
@@ -16,7 +15,6 @@ int main (){
 		system("neofetch");
 		break;
 		case 2:
-		system("clear");
 		system("htop");
 		// Reset choice so it doesn't take all the ram.
 		int choice = 0;
@@ -26,7 +24,5 @@ int main (){
 		system("reboot");
 		break;
 	}
-	// If you picked htop, it will loop it so you can exit and use it again.
-	} while(choice == 2);
 	return 0;	
 }
